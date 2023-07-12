@@ -40,6 +40,6 @@ public class Sum {
 		int secondnumber = Integer.parseInt(inputnumber2);
 		System.out.println("두 수의 합은 "+(firstnumber+secondnumber)+"입니다.");
 		System.out.printf("%d와 %d의 합은 %d입니다.", firstnumber, secondnumber, firstnumber+secondnumber);
-		
+		input.close();
 	}
 }
